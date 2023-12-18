@@ -16,6 +16,30 @@
   }
 }
 
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100
+  }
+}
+
+.container {
+  @apply mx-auto w-full max-w-[1200px] px-6
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FC7500;
+  border-radius: 14px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

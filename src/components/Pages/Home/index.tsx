@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export const HomeSection = () => {
     return (
-        <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb=[110px]">
-            <div className="container flex items-center justify-between flex-col-reverse lg:flex-row">
+        <section className="w-full lg:h-[590px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb=[110px]">
+            <div className="container flex items-center justify-center flex-col-reverse lg:flex-row">
                 <motion.div
                     className="w-full lg:max-w-[530px]"
                     initial={{ opacity: 0, x: -100 }}
