@@ -1,7 +1,7 @@
 import { AboutSection } from "@/components/Pages/About";
 
-export const metata = {
-    title: 'Inicio',
+export const metadata = {
+    title: 'Sobre | Hub T&I',
 }
 
 export default function Home() {

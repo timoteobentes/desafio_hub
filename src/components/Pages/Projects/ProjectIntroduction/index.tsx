@@ -21,9 +21,7 @@ export const ProjectIntroduction = () => {
                 transition={{ duration: 0.6 }}
             >
                 <p className="text-gray-400 text-center max-w-[640px] my-6 text-sm sm:text-base">
-                    Projetos desenvolvidos pelo <i>Hub Inteligência & Inovação</i>. Navegue à
-                    vontade e explore os projetos para ver como foram criados, as
-                    tecnologias utilizadas e as funcionalidades implementadas.
+                    Projetos desenvolvidos pelo <strong><i>Hub Inteligência & Inovação</i></strong>.
                 </p>
                 <Link href="/">
                     <ArrowLeftIcon className="w-6 h-6" />
