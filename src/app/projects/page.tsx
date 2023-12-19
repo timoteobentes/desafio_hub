@@ -14,8 +14,8 @@ export default async function Projects() {
         <>
             <ProjectIntroduction />
             <div className='mx-auto'>
-                {data.map((pro) => (
-                    <div key={pro.id} className="rounded-lg h-[436px] w-96 mx-auto mb-4 flex flex-col bg-gray-800 overflow-hidden group transition-all border-2 border-gray-800 hover:border-emerald-500 opacity-70 hover:opacity-100">
+                {data.map((pro: any) => (
+                    <div key={pro.id} className="rounded-lg h-[436px] w-96 mx-auto mb-4 flex flex-col bg-gray-800 overflow-hidden group transition-all border-2 border-gray-800 hover:border-orange-500 opacity-70 hover:opacity-100">
                         <div className="w-full h-48 overflow-hidden">
                             <Image
                                 width={380}
@@ -28,7 +28,7 @@ export default async function Projects() {
                         </div>
 
                         <div className="flex-1 flex flex-col p-8">
-                            <strong className="font-medium text-gray-50/90 group-hover:text-emerald-500 transition-all">
+                            <strong className="font-medium text-gray-50/90 group-hover:text-orange-500 transition-all">
                                 { pro.name }
                             </strong>
                             <p className="mt-2 text-gray-400 line-clamp-4">
