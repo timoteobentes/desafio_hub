@@ -1,7 +1,7 @@
 import { HomeSection } from "@/components/Pages/Home";
 
-export const metata = {
-    title: 'Inicio',
+export const metadata = {
+    title: 'Hub Tecnologia & Inovação',
 }
 
 export default function Home() {
