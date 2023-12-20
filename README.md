@@ -2,6 +2,8 @@ Projeto desenvolvido com intuito de cumprir com o desafio oferecido pelo Hub Tec
 
 # Portfólio de Projetos
 
+- Preview: [https://desafio-hub.vercel.app](https://desafio-hub.vercel.app)
+
 ## Interfaces
 
 ### Início
