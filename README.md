@@ -2,6 +2,8 @@ Projeto desenvolvido com intuito de cumprir com o desafio oferecido pelo Hub Tec
 
 # Portfólio de Projetos
 
+- Preview: [https://desafio-hub.vercel.app](https://desafio-hub.vercel.app)
+
 ## Interfaces
 
 ### Início
@@ -24,11 +26,15 @@ Este projeto foi desenvolvido em:
 Para rodar localmente:
 
 - Faça o clone do repositório na sua máquina;
-- Abra o terminal e digite 
+- Abra o terminal e digite :
 ```bash
-npm i or npm install
+npm i
 ```
-- Depois, rode
+- Altere a branch para develop;
+```bash
+git checkout develop
+```
+- Depois, rode:
 ```bash
 npm run dev
 ```
