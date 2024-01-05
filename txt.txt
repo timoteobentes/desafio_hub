@@ -1,23 +1,4 @@
-import { promises as fs } from 'fs';
-import Image from 'next/image';
-import { ProjectIntroduction } from '../../components/Pages/Projects/ProjectIntroduction';
-import * as Project from '../../api/dbapi';
-
-export const metadata = {
-    title: 'Projetos | Hub T&I',
-}
-
-export default async function Projects() {
-    const file = await fs.readFile(process.cwd() + '/src/utils/db.json', 'utf8');
-    const data = JSON.parse(file)['projects'];
-    const response = Project.getProjects();
-    /* Não desistir de implementar do JSON-Server */
-
-    return (
-        <>
-            <ProjectIntroduction />
-            <div className='mx-auto'>
-                {data.map((pro: any) => (
+{data.map((pro: any) => (
                     <div key={pro.id} className="rounded-lg h-[436px] w-96 mx-auto mb-4 flex flex-col bg-gray-800 overflow-hidden group transition-all border-2 border-gray-800 hover:border-orange-500 opacity-70 hover:opacity-100">
                         <div className="w-full h-48 overflow-hidden">
                             <Image
@@ -50,7 +31,3 @@ export default async function Projects() {
                         </div>
                     </div>
                 ))}
-            </div>
-        </>
-    );
-}
