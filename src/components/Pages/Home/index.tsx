@@ -13,7 +13,7 @@ export const HomeSection = () => {
                     exit={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <h1 className="text-4xl text-center font-medium mt-2">Portfólio de Projetos <br /> Hub Inteligência & Inovação</h1>
+                    <h1 className="text-4xl text-center font-medium mt-2">Portfólio de Projetos <br /> Hub Tecnolgia & Inovação</h1>
                 </motion.div>
             </div>
         </section>
