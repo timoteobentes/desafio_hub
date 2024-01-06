@@ -12,11 +12,12 @@ export const metadata = {
     title: 'Projetos | Hub T&I',
 }
 
-type ProjectsProps = {
+/* type ProjectsProps = {
     project: Project
-}
+} */
 
-export default async function Projects({ project }: ProjectsProps) {
+/* export default async function Projects({ project }: ProjectsProps) { */
+export default async function Projects() {
     const file = await fs.readFile(process.cwd() + '/src/utils/db.json', 'utf8');
     const data = JSON.parse(file)['projects'];
     /* const response = Projects.getProjects(); */
