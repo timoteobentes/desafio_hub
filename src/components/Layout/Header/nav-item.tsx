@@ -1,6 +1,7 @@
 import { cn } from '@/lib/utils';
 import  Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { CubeIcon } from '@heroicons/react/20/solid';
 
 type NavItemProps = {
     href: string
@@ -20,7 +21,7 @@ export const NavItem = ({ label, href }: NavItemProps) => {
                 isActive && 'text-gray-50',
             )}
         >
-            <span className='text-orange-400'>#</span>
+            <span className='text-orange-400'><CubeIcon className='w-5 h-5' /></span>
             { label }
         </Link>
     );

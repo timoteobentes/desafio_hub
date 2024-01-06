@@ -1,3 +1,4 @@
+/* Não desistir de implementar o JSON- Server */
 import axios from "axios";
 
 export async function getProjects() {
